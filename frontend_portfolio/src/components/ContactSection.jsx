@@ -27,7 +27,7 @@ export const ContactSection = () => {
     };
   
     try {
-      const response = await fetch("https://portfolio-abc6.onrender.com", {
+      const response = await fetch("https://portfolio-abc6.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
